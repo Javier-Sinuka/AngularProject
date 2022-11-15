@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-page-two',
+  selector: 'app-page-two', //nombre del componente, para rutear despues
   templateUrl: './page-two.component.html',
   styleUrls: ['./page-two.component.css']
 })

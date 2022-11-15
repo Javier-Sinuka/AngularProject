@@ -11,7 +11,7 @@ import { BrowserAnimationsModule} from "@angular/platform-browser/animations";
     AppComponent,
     TesteoEnrutamientoComponent,
   ],
-  imports: [
+  imports: [ //Modulos que voy a importar
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule
@@ -19,4 +19,4 @@ import { BrowserAnimationsModule} from "@angular/platform-browser/animations";
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { } //metodos que quiero exportar para que sean de uso general
