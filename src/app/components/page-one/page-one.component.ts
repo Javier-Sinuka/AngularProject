@@ -5,6 +5,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
   selector: 'app-page-one',
   templateUrl: './page-one.component.html',
   styleUrls: ['./page-one.component.css'],
+
   animations:[
     trigger('aniBoton',[
       state('inactive',style({

@@ -11,4 +11,5 @@ export class AppComponent {
   home = 'home';
   page_one = 'productos';
   page_two = 'sobre nosotros';
+  page_login = 'login'
 }

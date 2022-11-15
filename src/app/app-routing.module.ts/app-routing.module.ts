@@ -6,9 +6,9 @@ import {RouterModule, Routes} from "@angular/router";
 import { PageOneComponent } from "../components/page-one/page-one.component";
 import { PageTwoComponent } from "../components/page-two/page-two.component";
 import { PageAboutComponent } from "../components/page-about/page-about.component";
-import {AppComponent} from "../app.component";
 import { Pagina404ComponentComponent} from "../components/pagina404-component/pagina404-component.component";
 import {FormsModule} from "@angular/forms";
+import {LoguinComponent} from "../components/loguin/loguin.component";
 
 //Definimos nuestras rutas
 const routes: Routes = [ //Array de las rutas
@@ -16,9 +16,10 @@ const routes: Routes = [ //Array de las rutas
   {path: 'home', component:PageOneComponent},
   {path: 'otra-pagina', component:PageTwoComponent},
   {path: 'sobre-nosotros', component:PageAboutComponent},
+  {path: 'loguin', component:LoguinComponent},
   {path: '**', component:Pagina404ComponentComponent},
-]
 
+]
 
 @NgModule({
   declarations: [

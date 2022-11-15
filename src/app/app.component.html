@@ -15,10 +15,14 @@
           <a class="nav-link active" aria-current="page" href="/home">{{home}}</a>
         </li>
         <li class="nav-item nav-bar-p">
-          <a class="nav-link" href="/otra-pagina">{{page_one}}</a>
+          <a class="nav-link" href="/otra-pagina">{{page_one}}</a> <!-- EN DONDE DICE
+          /OTRA-PAGINA ESO ES LO QUE SE LINKEA AL APP-ROUTING-MODULE -->
         </li>
         <li class="nav-item nav-bar-p">
           <a class="nav-link" href="/sobre-nosotros">{{page_two}}</a>
+        </li>
+        <li class="nav-item nav-bar-p">
+          <a class="nav-link" href="/loguin">{{page_login}}</a>
         </li>
       </ul>
       <form class="d-flex nav-bar-p" role="search">
@@ -29,4 +33,4 @@
   </div>
 </nav>
 
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> <!-- DESDE ACA GESTIONAMOS TOD EL ENRUTAMIENTO -->
